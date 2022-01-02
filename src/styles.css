@@ -56,18 +56,22 @@ body {
 }
 
 .form-container .footer button {
-  border-radius: 7px;
+  border-radius: 0.3rem;
   width: 100px;
   height: 40px;
-  background-color: rgb(255, 0, 140);
+  background-color: rgb(255, 0, 140, 0.7);
   font-weight: bold;
   color: white;
   border: 0 none;
-  border-radius: 1px;
   cursor: pointer;
   padding: 10px 5px;
   margin: 10px 5px;
   margin: 5px;
+  transition: 0.3s ease;
+}
+
+.form-container .footer button:hover {
+  background-color: rgb(255, 0, 140, 0.9);
 }
 
 .sign-up-container {

@@ -42,7 +42,8 @@ function Form() {
         <div className="body">{PageDisplay()}</div>
         <div className="footer">
           <button
-            disabled={page == 0}
+            disabled={page === 0}
+            style={{ display: page === 0 ? "none" : "" }}
             onClick={() => {
               setPage((currPage) => currPage - 1);
             }}
